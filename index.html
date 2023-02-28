@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Wiki | Portal do professor</title>
+</head>
+<body>
+  
+  <div class="container-sidebar">
+    
+    <input type="checkbox" name="" checked="checked">
+    <span class="icon-menu"></span>
+    
+    
+    <ul>
+      <li><a class="logo" href="https://fmp.edu.br"><img src="imagens/logo1.png" width="200px"></a></li>
+      
+      <li><a href="#home">Mais perguntadas</a></li>
+      <!--<li><a href="#home">Frequência diária</a></li>
+      <li><a href="#ocorrencias">Ocorrências</a></li>
+      <li><a href="#ocorrencias">Plano de aula</a></li>
+      <li><a href="#avaliacoes">Avaliações</a></li>
+      <li><a href="#notas">Notas</a></li>
+      <li><a href="#faltas">Faltas</a></li>
+    <li><a href="#bases">Bases de biblioteca</a></li>-->
+      <li><a href="#relatorios">Relatórios</a></li>
+      
+      
+      
+      
+      
+      <li><a class="a" href="https://fmp.edu.br/portalprofessor/">Acesse os portais</a></li>
+
+    
+     
+    </ul>
+
+    
+    <div class="search" >
+      <input style="padding-left: 10px;" id="searchbar" onkeyup="search_accordion()" type="text"
+      name="search" placeholder="Pesquisar">
+    </div>
+
+    
+
+    <section id="home">
+      <h2 style="text-align: center; padding-top: 0;" ><br>Wiki - Portal do Professor</h2>
+    
+      <h2 class="subtitle">Mais perguntadas<br><br></h2>
+
+     
+
+      <!--<h2 class="subtitle" >Mais perguntadas</h2>-->
+      <div class="accordion">
+
+        <div class="accordion-item">
+          <button aria-expanded="false">
+            <span class="accordion-title">O que é o diário de classe no portal, como acessar as turmas e quais as funções disponíveis?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="content">
+            <p>O diário de classe carrega todas as turmas em que o(a) professor(a) está cadastrado como responsável, inclusive turmas de pós graduação. Nesta tela podemos realizar o registro de avaliações, a frequência diária, registro de ocorrências, registro do conteúdo do plano de aula, registro das notas dos alunos e o redirecionamento para o portal antigo.
+               
+            </p>
+            <p>Para facilitar a busca das turmas no diário de classe, <b>sempre utilize a aba "filtros".</b> </p>
+
+            <p class="tutorial" >
+              <img class="media" src="gif/filtro.gif" alt="" width="80%" height="70%">
+                      </p>
+              
+
+            <p class="tutorial" >
+              <a class="link" href="diario.html">Ver tutorial</a>
+            </p>
+
+           
+            
+          </div>
+        
+          
+        </div>
+        
+        
+
+<div  class="accordion-item" id="etapa">
+  <button aria-expanded="false">
+    <span class="accordion-title">O que é etapa?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Uma etapa corresponde, a um "módulo" da disciplina. Por padrão nas disciplinas
+      da graduação temos criadas as etapas: <b>Grau 1, Grau 2,  Média Parcial, Grau 3, Resultado Final e Faltas</b>.<br>
+      <br><b>Grau 1 e Grau 2:</b> Nas etapas Grau 1 e Grau 2 registramos as notas de G1 e G2 que podem serem divididas em várias avaliações
+      ou apenas uma para cada etapa, totalizando sempre 10 pontos cada uma. <br>
+      <br><b>Média Parcial:</b> A etapa média parcial, recebe automaticamente a média das etapas G1 e G2,
+      indicando se o aluno está aprovado, reprovado ou em recuperação. <br>
+      <br><b>Grau 3:</b>  Esta etapa recebe a nota digitada pelo(a) professor(a), se o aluno ficou em G3.<br>
+      <br><b>Resultado final:</b> O Resultado recebe automaticamente a média parcial do aluno que não ficou em G3, se não, 
+        recebe o resultado de G3. Indica se está aprovado ou não.<br>
+        <br><b>Faltas:</b> Soma das ausências lançadas pelo(a) professor(a), quando a soma ultrapassa o limite, 
+          reprova o aluno por faltas.
+    </p>
+    
+    
+  </div>
+
+  
+</div>
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como ver os dados dos alunos?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+        Esta funcionalidade ainda não foi migrada para o novo portal, precisamos acessar o
+        diário de classe no portal antigo e selecionar os alunos da turma.
+ </p>
+   <p class="tutorial" >
+              <a class="link" href="alunos.html">Ver tutorial</a>
+            </p>
+    
+    
+  </div>
+
+  
+</div>
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Por que preciso gerar relatório para visulizar as médias das turmas?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+        Por enquanto, não temos uma tela somente para consulta das médias parciais e resultado dos alunos, 
+        por isso disponibilizamos um relatório para a consulta de todos os alunos de uma turma. 
+
+      <p class="tutorial" >
+          <a class="link" href="relatorio.html">Veja como aqui</a><br>
+          <br>Caso queira visualizar de um aluno por vez, existe a tela para ver os 
+          <a class="link" href="alunos.html">dados dos alunos</a> no portal antigo, como no tutorial anterior.
+        </p>
+
+        
+      
+      </p>
+
+     
+    
+    
+  </div>
+
+  
+</div>
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como criar ocorrências?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Nesta tela o(a) professor(a) terá a opção de visualizar e cadastrar ocorrência(s) para o(s) aluno(s) de uma determinada turma/disciplina. 
+    </p>
+   <p class="tutorial" >
+              <a class="link" href="ocorrencia.html">Ver tutorial</a>
+            </p>
+    
+    
+  </div>
+
+  
+</div>
+
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Por que em algumas situações a edição das faltas ficou "trancada"?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+        Na última versão atualizada do sistema, foi implementado pela TOTVS que após o(a) professor(a)
+        liberar a frequência para os alunos não é mais possível editar. Ou seja, após ativar o botão 
+        <b>"Liberar frequência após salvar"</b> na tela de chamada dos alunos, e salvar, a edição fica trancada.
+        Essa liberação de frequência permitia que o aluno visualizasse suas faltas por dia no seu portal.
+
+    </p>
+	
+	<p>
+	 Para 
+        solucionar o problema, inativamos essa função,
+        Sendo assim o(a) professor(a) <b>não necessita mais marcar o botão "Liberar frequência após salvar"</b>.
+        
+	</p>
+  <div class="video">
+    <img class="media" src="imagens/freq1.png" alt="" width="450" height="100"><br><b>Função desabilitada.</b><br><br>
+    
+  </div>
+  
+ 
+
+   <!--<p class="tutorial" >
+              <a class="link" href="freq.html">Ver como</a>
+            </p>-->
+    
+    
+  </div>
+
+  
+</div>
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como digitar as notas de avaliação?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Nesta tela o(a) professor(a) poderá digitar as notas de avaliação e um inserir comentário na nota (caso necessário).
+
+      Sendo que o acesso para esta tela será feito através da tela de diário de classe, selecionando a turma e clicando no item de menu: Notas de Avaliações. O(A) professor(a) poderá realizar a gestão da digitação de notas das avaliações para os alunos.
+    </p>
+   <p class="tutorial" >
+              <a class="link" href="notas.html">Ver tutorial</a>
+            </p>
+    
+    
+  </div>
+
+  
+</div>
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Digitei uma nota ou adicionei/retirei falta de um aluno mas não atualizou sua situação, como resolver?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+
+      Quando uma nota ou falta é reeditada no portal, ela pode não ser recalculada, pois ainda não existe um botão para essa funcionalidade no portal. Para resolver 
+      o(a) professor(a) pode forçar um recálculo. Edite a falta ou a nota com qualquer valor e salve, após, edite essa nota ou a falta com o valor correto e salve novamente. 
+      A situação do aluno será atualizada. 
+      
+    </p>
+
+    
+    
+  </div>
+
+  
+</div>
+
+
+
+
+
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Tentei acessar o diário de classe, e aparece uma tela de bloqueio, o que fazer?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Dependendo dos dados armazenados por acessos anteriores feitos no portal, pode ser que ocorra este erro.
+      Neste caso, realize logoff, atualize a página e faça login novamente. Para sair clique no ícone cinza no canto superior direito, 
+      e clique em sair. 
+       
+
+    </p>
+
+    
+    
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como eu posso adicionar uma nota extra para o aluno?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Por padrão, no sistema não é possível adicionar notas extras para os alunos, o limite configurado é 10.
+      Solicite ao NAP um aumento desse limite na avaliação desejada. 
+
+    </p>
+    <div class="video">
+        <a class="video-content" href="aulasGeminadas.html"></a>
+
+    </div>
+    
+    
+  </div>
+
+  
+</div>
+
+
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como adicionar um conteúdo, editar ou copiar um plano de aula?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Nesta tela o(a) professor(a) terá a opção de visualizar, cadastrar e editar o plano de aula do dia corrente de uma determinada turma. Todas as aulas associadas ao(a) professor(a) para o dia o corrente serão exibidas. Aqui mostramos três vídeos tutoriais para mostrar as funções do plano de aula.
+    </p>
+   <p class="tutorial" >
+              <a class="link" href="plano.html">Ver tutorial</a>
+            </p>
+    
+    
+  </div>
+
+  
+</div>
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como criar avaliações e fracionar a nota da etapa?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      Nesta tela, o(a) professor(a) poderá cadastrar, editar e excluir a avaliação para os alunos.
+
+    </p>
+   <p class="tutorial" >
+              <a class="link" href="avaliacoes.html">Ver tutorial</a>
+            </p>
+    
+    
+  </div>
+
+  
+
+  
+</div>
+
+
+<!--<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Como os alunos enxergam suas notas e frequência no portal do aluno?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+        Os alunos possuem disponível as suas faltas totais, notas de avaliação, médias e um relatório da sua
+        frequência diária que mostra as datas e horários das suas faltas. 
+
+
+    </p>
+   <p class="tutorial" >
+              <a class="link" href="visuAlunos.html">Ver como</a>
+            </p>
+    
+    
+  </div>
+
+  
+
+  
+</div>-->
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">O que são aulas geminadas?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+        As aulas geminadas correspondem as aulas que possuem mais de um horário 
+        cadastrado no mesmo turno. Ao marcar aulas geminadas, 
+        a alteração de frequência feita em um horário será propagada 
+        para todos os horários daquele dia para aquele aluno . 
+        Com o botão desmarcado, é necessário clicar em cada horário para registrar a 
+        falta.
+
+       
+
+    </p>
+
+    <p class="tutorial" >
+      <a class="link" href="aulasGeminadas.html">Ver tutorial</a>
+    </p>
+    
+    
+    
+  </div>
+
+  
+</div>
+
+
+</div>
+
+
+      
+
+         
+    
+
+      
+
+        
+    </section>
+   
+
+    <section id="relatorios">
+
+     
+      
+      <h2 style="text-align: center;" >Relatórios</h2>
+      
+      <div class="accordion">
+        <div class="accordion-item">
+          <button aria-expanded="false">
+            <span class="accordion-title">Como visualizar o relatório das médias de todos os alunos de uma turma?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="content">
+          <p>Veja como emitir um relatório com as médias dos alunos de uma turma.</p>
+            <p class="tutorial" >
+              <a class="link" href="relatorio.html">Ver tutorial</a>
+            </p>
+            
+          </div>
+
+          
+</div>
+
+
+
+<div class="accordion-item">
+  <button aria-expanded="false">
+    <span class="accordion-title">Porque preciso acessar o portal antigo para emitir relatórios?</span>
+    <span class="icon" aria-hidden="true"></span>
+  </button>
+  <div class="content">
+    <p>
+      O novo portal  é um ambiente que ainda não possui a funcionalidade para emitir relatórios o que será implementado em breve, e no momento, para emitirmos relatórios necessitamos acessar o portal antigo.
+
+    </p>
+    
+   
+  </div>
+
+  
+</div>
+
+
+</div>
+      
+
+         
+    
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="imagens/up.png"></button>
+    </section>
+
+    <script src="./app.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="imagens/up.png"></button>
+
+  </div>
+
+
+  
+</body>
+</html>
